@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd8b90a745a83d0bafc003702d7ebf1, type: 3}
+  m_Name: BeginnerDialogue
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - 'Rival: Oh look who''s finally made it off the training track and into a real
+    race.'
+  - 'Rival: Looks like I''m going to have it easy today.'
+  - 'You: I wouldn''t be so sure if I were you...'
+  - 'You: I''m a much better racer than I used to be.'
+  - 'Rival: Hah! I''ll be the judge of that.'
+  - 'Rival: Whoever wins here makes it to the big leagues!'
+  - 'Rival: A race like this only comes once a year, and I''m not missing that shot!'
+  - 'You: Neither am I, so let''s put our skills to the test?'
