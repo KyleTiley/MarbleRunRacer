@@ -6,9 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     new Rigidbody rigidbody;
 
-    float playerForwardSpeed = 15;
+    float playerForwardSpeed = 12;
     float playerReverseSpeed = 5;
-
 
     private void Awake() {
         rigidbody = this.GetComponent<Rigidbody>();

@@ -4,22 +4,23 @@ using UnityEngine;
 
 public class WaypointTrigger : MonoBehaviour
 {
-    AIController aIController;
-    PlayerController playerController;
+    AdvancedAI advancedAI;
+    //PlayerController playerController;
     //[SerializeField] PlacementController placementController;
 
     private void OnTriggerEnter(Collider other) {
-        // if(other.tag != "Player"){
-        //     aIController = other.gameObject.GetComponent<AIController>();
-        //     aIController.lookingForWaypoint = true;
-        //     aIController.checkpointsPassed++;
-        //     aIController.timerStart = true;
-        // }
-        // if(other.tag == "Player"){
-        //     playerController = GameObject.Find("Player").GetComponent<PlayerController>();
-        //     playerController.playerCheckpointsPassed++;
-        //     placementController.CompareScores();
-        //     playerController.playerTimer = true;
-        // }
+        if(other.tag != "Player"){
+            advancedAI = other.gameObject.GetComponent<AdvancedAI>();
+            advancedAI.lookingForWaypoint = true;
+            // advancedAI.checkpointsPassed++;
+            // advancedAI.timerStart = true;
+        }
+        if(other.tag == "Player"){
+            // do nothing for now
+            // playerController = GameObject.Find("Player").GetComponent<PlayerController>();
+            // playerController.playerCheckpointsPassed++;
+            // placementController.CompareScores();
+            // playerController.playerTimer = true;
+        }
     }
 }
