@@ -66,7 +66,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 2147483647
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 1c9abdac6f728a0148c454f110565d6c, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -90,9 +90,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 30472108590813291}
   smoothFactor: 1
-  lookAtPlayer: 0
-  rotateAroundPlayer: 1
-  rotationSpeed: 1
 --- !u!1 &6723273048008908272
 GameObject:
   m_ObjectHideFlags: 0
@@ -139,6 +136,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6604928685083661093, guid: c89a6a105fa001e6bab9b031a7f682f0, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604928685083661093, guid: c89a6a105fa001e6bab9b031a7f682f0, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6710819809313096355, guid: c89a6a105fa001e6bab9b031a7f682f0, type: 3}
@@ -188,7 +189,7 @@ PrefabInstance:
     - target: {fileID: 8472427777667096103, guid: c89a6a105fa001e6bab9b031a7f682f0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 638412142c69217b6a414e95ed18ca33, type: 2}
+      objectReference: {fileID: 2100000, guid: 7e5cb9ce3ecafb3c89897dd62ab643e1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c89a6a105fa001e6bab9b031a7f682f0, type: 3}
 --- !u!4 &30472108590813291 stripped
